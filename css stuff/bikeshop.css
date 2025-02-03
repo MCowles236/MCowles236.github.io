@@ -50,12 +50,14 @@ p cite {
 }
 
 img {
-    border-redius: 10px;
+    border: 5px solid blue;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
 }
 
 .list {
     padding-left: 10px;
-    background: blue;
 
 }
 main {
