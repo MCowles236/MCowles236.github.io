@@ -54,6 +54,7 @@ img {
     border-radius: 4px;
     padding: 5px;
     width: 100px;
+    object-position: center top;  
 }
 
 .list {
@@ -63,3 +64,4 @@ img {
 main {
     padding: 0.05em;
 }
+ 
