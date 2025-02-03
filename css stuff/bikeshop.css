@@ -1,11 +1,10 @@
-/* Matthy ITEC236, last developed 2 Feb 2025 */
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin: 0px auto 0px;
+    margin: 10px auto 10px;
     padding: 20px;
-    background-color: yellow;
+    background-color: rgb(191, 221, 255);
+    width: 725px;
 }
 
 footer {
@@ -18,25 +17,27 @@ footer {
 }
 
 h1 {
-    color: blue;
-    padding-left: 0.05em;
+    padding: 10px;
     font-style: 150%;
 
 }
 
 h2 {
+    padding: 10px;
     font-size:  125%;
+    
 
 }
 
 h3 {
+    padding: 10px;
     font-size: 115%;
 }
 
 p {
     text-align: left;
-    padding-right: 2em;
-    padding-bottom: 0.075em;
+    padding-right: 5px;
+    padding-left: 5px;
     font-style: normal;
 }
 
@@ -54,6 +55,7 @@ p cite {
 }
 
 .list {
+    padding-left: 10px;
 
 }
 main {
