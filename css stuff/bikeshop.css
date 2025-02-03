@@ -3,7 +3,7 @@ body {
     font-size: 100%;
     margin: 10px auto 10px;
     padding: 20px;
-    background-color: lavendar;
+    background-color: lavender;
     width: 725px;
 }
 
@@ -49,13 +49,13 @@ p cite {
     font-style: normal;
 }
 
-.wrapper {
-    background-color: white;
-    border: 1em blue double;
+img {
+    border-redius: 10px;
 }
 
 .list {
     padding-left: 10px;
+    background: blue;
 
 }
 main {
