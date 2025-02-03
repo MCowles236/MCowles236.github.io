@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0px auto 0px;
+    padding: 20px;
+    background-color: yellow;
+}
+
+footer {
+
+    margin: 0.05em;
+    border-top: 0.035em blue solid;
+    text-align: center;
+    font-size: 90%;
+    font-style: bold;
+}
+
+h1 {
+    color: blue;
+    padding-left: 0.05em;
+    font-style: 150%;
+
+}
+
+h2 {
+    font-size:  125%;
+
+}
+
+h3 {
+    font-size: 115%;
+}
+
+p {
+    text-align: left;
+    padding-right: 2em;
+    padding-bottom: 0.075em;
+    font-style: normal;
+}
+
+p cite {
+    color: blue;
+    text-align: right;
+    padding-right: 2em;
+    padding-bottom: 0.075em;
+    font-style: normal;
+}
+
+.wrapper {
+    background-color: white;
+    border: 1em blue double;
+}
+
+.list {
+
+}
+main {
+    padding: 0.05em;
+}
