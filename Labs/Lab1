@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<!--Matty, Southern Illinois University, Last Developed & Tested 23 Feb 2025-->
+<!--Matty, Southern Illinois University, Last Developed & Tested 26 Jan 2025-->
 
 <html lang="en-US">
-<head> <!--Heade for tab-->
+<head> <!--Tab Header-->
   <meta charset="utf-8">
   <title> WBA Bikes </title>
   <meta name="description" content="Your Local Bike Shop"> <meta name="keywords" content="WBA, bikes">
-  <link rel="stylesheet" href="css_stuff/main.css">
-  <link rel="stylesheet" href="SlickNav-master/SlickNav-master/scss/slicknav.scss">
 </head>
 
 <body>
@@ -26,7 +24,7 @@
         <a href="emailto:owner@wba.com">owner@wba.com</a> </address> 
   
         <pre>
-<!--Address for store-->
+<!--Address for the store-->
 Visit us in person!
 
 WBA Bikes
