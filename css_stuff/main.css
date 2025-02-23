@@ -21,6 +21,40 @@ aside {
     height: 500px;
     background-color: #ffffff; /* this color is white for column panel */
     float: right; }
+
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .6em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 100%;
+	padding-bottom: .25em;
+#nav_list ul { 
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 1.5em; }
+#nav_list ul li { 
+	width: 93.02325%;
+	margin-bottom: .5em;
+	border: 2px double black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 0 #800000;
+	background-image: url("images/right.jpg");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+#nav_list ul li a {
+	display: block;
+	padding: .5em 0 .5em 3.72093%;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#nav_list ul li a.current {
+	color: #800000;
+}
 h1, h2 {
    
     padding: 0.625em;
@@ -55,44 +89,6 @@ li {
     position: relative;
     right: 10px; 
     top: 10px; 
-}
-aside {
-	width: 25.29411%;
-	float: right;
-	padding: 0 0 20px 2.35294%;
-}
-aside h2 {
-	color: #800000;
-	font-size: 130%;
-	padding: .6em 0 .25em 0;
-}
-
-aside h3 {
-	font-size: 100%;
-	padding-bottom: .25em;
-#nav_list ul { 
-	list-style: none;
-	margin-left: 0;
-	margin-bottom: 1.5em; }
-#nav_list ul li { 
-	width: 93.02325%;
-	margin-bottom: .5em;
-	border: 2px double black;
-	border-radius: 10px;
-	box-shadow: 3px 3px 0 0 #800000;
-	background-image: url("images/right.jpg");
-	background-repeat: no-repeat;
-	background-position: 95% center;
-}
-#nav_list ul li a {
-	display: block;
-	padding: .5em 0 .5em 3.72093%;
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
-}
-#nav_list ul li a.current {
-	color: #800000;
 }
 
 
