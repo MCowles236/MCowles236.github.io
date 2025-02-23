@@ -56,6 +56,11 @@ li {
     top: 10px; 
 }
 
+@media only screen and (max-width: 720px) {
+	body {
+		font-size: 90%;
+	}
+
 /* basic images where blue borders are not required */ 
 img {
     position: static;
