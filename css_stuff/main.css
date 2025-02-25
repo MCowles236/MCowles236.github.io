@@ -19,7 +19,7 @@ main {
 aside {
     width: 50%;
     height: 300px;
-    background-color: #lavender; /* this color is white for column panel */
+    background-color: lavender; /* this color is white for column panel */
     float: right; }
 
 aside h2 {
@@ -108,5 +108,7 @@ li {
 /* basic images where blue borders are not required */ 
 img {
     position: static;
+    border: 2px double blue;
+    border-radius: 10px;
 }
     
