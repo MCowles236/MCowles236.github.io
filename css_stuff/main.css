@@ -103,8 +103,47 @@ li {
 		background-image: none;
 	}
 	#nav-list ul li a {
-		padding-left: 0;
+		padding-left: 0; }
 
+.mono {
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    position: relative;	
+	margin:  0 auto;
+	max-width: 630px;
+    height: 350px;
+}
+/*  hover over and  blue touch on banner */
+/* burned in */
+.mono img {
+    
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    position: absolute;	
+	overflow: hidden;
+    border: 2px solid #B5D3E7;
+    border-radius: 600px;
+    -moz-border-radius: 600px;
+    margin: 0;
+	opacity: 1;
+    /* Sets the width and height for the images*/
+	max-width: 600px;
+	height: 350px;
+}
+
+/*  fading effect. */
+
+.mono .multi{
+  z-index: 9999;
+  transition: opacity 2s linear;
+  cursor: pointer;
+}
+
+/* burned in effect on 2nd image */
+.mono:hover > .multi {
+  opacity: 0.1;
 /* basic images where blue borders are not required */ 
 img {
     position: static;
