@@ -142,9 +142,9 @@ li {
 }
 
 /* burned in effect on 2nd image */
-.mono:hover > .multi {
+.mono:hover  .multi {
   opacity: 0.1;
-/* basic images where blue borders are not required */ 
+/* basic images where blue borders are not required */ }
 img {
     position: static;
     border: 2px double blue;
