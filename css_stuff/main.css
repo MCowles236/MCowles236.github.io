@@ -149,6 +149,14 @@ figure {
 .mono:hover  .multi {
   opacity: 0.1;
 /* basic images where blue borders are not required */ }
+caption {
+    text-align: center;
+    font-size: 160%;
+    font-weight: bold;
+    margin: 0 0 .5em 0;
+}
+figure, figcaption {
+    margin: 0;
 table {
     border: 1px solid black;
     border-collapse: collapse;
