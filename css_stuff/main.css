@@ -149,6 +149,22 @@ figure {
 .mono:hover  .multi {
   opacity: 0.1;
 /* basic images where blue borders are not required */ }
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+border: 1px solid black;
+padding: .2em .7em;
+text-align: right;
+}
+th.left, td.left { text-align: left;
+}
+thead, tfoot { background-color: white;
+}
+tfoot { font-weight: bold;
+}
 img {
     position: static;
     border: 2px double blue;
