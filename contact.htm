@@ -46,8 +46,24 @@
 	<label for="city">City:</label>
     	<input type="text" name="city" id="city" required><br>
 	<label for="state">State:</label>
-	<input type="text" name="state" required placeholder="Two characters"
-		pattern="[A-Za-z]{2}" title="Must be 2 characters"><br>
+	<select name="state" id="state">
+		<option value="AL">AL</option>
+		<option value="AK">AK</option>
+		<option value="AZ">AZ</option>
+		<option value="AR">AR</option>
+		<option value="CA">CA</option>
+		<option value="CO">CO</option>
+		<option value="CT">CT</option>
+		<option value="DE">DE</option>
+		<option value="DC">DC</option>
+		<option value="FL">FL</option>
+		<option value="GA">GA</option>
+		<option value="HI">HI</option>
+		<option value="ID">ID</option>
+		<option value="IL">IL</option>
+		<option value="IN">IN</option>
+		<option value="IA">IA</option>
+	</select><br><br>
 	<label for="zip">Zip Code:</label>
 	<input type="text" name="zip" required placeholder="Five digits"
 		pattern="\d{5}" title="Must be 5 digits"><br>
