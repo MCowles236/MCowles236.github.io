@@ -1,0 +1,82 @@
+
+<!--For SIU ITEC236 Final: Last Moded and Tested 5 May 2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="images/titlepage.png" alt="Scribbly Arts" width="500" height="120" class="center">
+    <link rel="shortcut icon" href="images/art1.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/print.css" media="print">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+    </script>
+</head>
+<body>
+    <header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="commissions.html">Commissions</a></li>
+                <li><a href="communicate.html">Conmmunicate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Scribbly Arts: The Home of Stuff</h2>
+        <p style=>Where our goal is to provide you with as many poorly drawn doodles as your heart desires.</p>
+        <img src="images/art1.png" width="200" height="200">
+        <section class="bg-gradient-to-br from-green-100 to-blue-200 py-16 px-6 text-center">
+            <div class="max-w-3xl mx-auto">
+              <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+                 Why is Scribbly Arts a thing?
+              </h1>
+              <p class="text-lg text-gray-600 leading-relaxed">
+                Because why now? We're here to draw stuff and have fun</p>
+              <h3 class="mt-6 text-xl font-semibold text-blue-700">
+                The world is our canvas</h3>
+                <p>We have generously provided a table for some base doodles we have as well as a list for some pricing below for styles.</p>
+                <table align="center">
+                    <legend></legend>
+                        <tr>
+                        <th>   Themes   </th>
+                        <th>   Description   </th> 
+                        <th>   Cost   </th>   
+                        <tr>
+                        <td>   Animals & Creatures   </td> 
+                        <td>   Look at the little guy   </td> 
+                        <td>   $2   </td>
+                        </tr>
+                        <tr>
+                        <td>   Landscaped   </td> 
+                        <td>   Very natural and beautiful   </td> 
+                        <td>   $5   </td>
+                        </tr>
+                        <tr>
+                        <td>   Random   </td> 
+                        <td>   Who knows whay you will get   </td> 
+                        <td>   $1   </td>
+                        <tr>
+                        <td>   Custom Commission   </td> 
+                        <td>   The limit is your imagination   </td> 
+                        <td>   <a href="commissions.html">Commissions</a>   </td>
+                </table>
+                <p></p>
+            </div>
+            <embed autoplay="true" type="video/mp4" src="videos/promo.mp4" width="640" height="400">
+          </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Scribbly Arts</p>
+    </footer>
+</body>
+</html>
