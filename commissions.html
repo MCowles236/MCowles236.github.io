@@ -1,0 +1,60 @@
+
+<!--For SIU ITEC236 Final: Last Moded and Tested 5 May 2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="images/titlepage.png" alt="Scribbly Arts" width="500" height="120" class="center">
+    <link rel="shortcut icon" href="images/art1.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <script src="js/jquery.slicknav.min.js"></script> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+    </script>
+</head>
+<body style="background-color:rgb(57, 0, 69);">
+    <header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="commissions.html" class="current">Commissions</a></li>
+                <li><a href="communicate.html">Conmmunicate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="commi-container">
+        <section class="commi-category">
+            <h2>Digital Art</h2>
+            <div class="commi-item">
+                <h3>Monochrome</h3>
+                <p>simple $5, complex $10</p>
+            </div>
+            <div class="commi-item">
+                <h3>Multicolor</h3>
+                <p>simple $8, complex $12</p>
+            </div>
+        </section>
+        <section class="commi-category">
+            <h2>Physical Art</h2>
+            <div class="commi-item">
+                <h3>Pencil</h3>
+                <p>simple $10, complex $20</p>
+            </div>
+            <div class="commi-item">
+                <h3>Paint</h3>
+                <p>simple $15, complex $30</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p style="color:white">&copy; 2025 Scribbly Arts</p>
+    </footer>
+</body>
+</html>
