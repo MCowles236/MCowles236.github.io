@@ -1,0 +1,61 @@
+
+<!--For SIU ITEC236 Final: Last Moded and Tested 5 May 2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="images/titlepage.png" alt="Scribbly Arts" width="500" height="120" class="center">
+    <link rel="shortcut icon" href="images/art1.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <script src="js/jquery.slicknav.min.js"></script> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+    </script>
+</head>
+<body style="background-color:rgb(57, 0, 69);">
+    <header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="commissions.html">Commissions</a></li>
+                <li><a href="communicate.html" class="current">Conmmunicate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Let's get in touch!</h1>
+        <p>Feel free to use this form below to contact us about,</p>
+        <ul>
+            <li>art orders</li>
+            <li>commission quotes</li>
+            <li>special commission request</li>
+            <li>whatever you like!</li>
+        </ul>
+        <form id= "post" action="success.html"> 
+        <label for="email">E-Mail:</label> 
+        <input type="email" name="email" id="email" required placeholder="Email" required><br> 
+        <label for="first_name">First Name:</label> 
+        <input type="text" name="first_name" id="first_name" required minlength="3" maxlength="25" placeholder="Full Name"><br>
+        <label for="last_name">Last Name:</label> 
+        <input type="text" name="last_name" id="last_name" required minlength="3" maxlength="25" placeholder="Last Name"><br>
+        <fieldset>
+        Message:<br>
+        <textarea id="message" required minlength="20" maxlength="800" placeholder= "Message required: Please type a message between 50 and 800 characters." required ></textarea><br>
+        </fieldset>
+        <legend>Please Submit Your Message</legend> <br>
+        <input type="submit" id="submit" value="Send"><br>
+        <input type="reset" id="reset" value="Reset"><br>
+        </form>
+    </main>
+    <footer>
+        <p style="color:white">&copy; 2025 Scribbly Arts</p>
+    </footer>
+</body>
+</html>
