@@ -5,11 +5,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="images/titlepage.png" alt="Scribbly Arts" width="500" height="120" class="center">
+    <title>Scribbly Arts Communicate</title>
     <link rel="shortcut icon" href="images/art1.ico">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/slicknav.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <script src="js/jquery.slicknav.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script> 
     <script type="text/javascript">
         $(document).ready(function(){
                 $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
@@ -18,6 +19,7 @@
 </head>
 <body style="background-color:rgb(57, 0, 69);">
     <header>
+        <img src="images/titlepage.png" alt="Scribbly Arts" width="500" height="120" class="center">
         <nav id="mobile_menu"></nav>
         <nav id="nav_menu">
             <ul>
@@ -25,7 +27,7 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="commissions.html">Commissions</a></li>
-                <li><a href="communicate.html" class="current">Conmmunicate</a></li>
+                <li><a href="communicate.html" class="current">Communicate</a></li>
             </ul>
         </nav>
     </header>
@@ -40,16 +42,16 @@
         </ul>
         <form id="post" action="success.html"> 
         <label for="email">email:</label> 
-        <input type="email" name="email" id="email" required placeholder="Email" required><br> 
+        <input type="email" name="email" id="email" required placeholder="Email"><br> 
         <label for="first_name">First Name:</label> 
         <input type="text" name="first_name" id="first_name" required minlength="3" maxlength="25" placeholder="Full Name"><br>
         <label for="last_name">Last Name:</label> 
         <input type="text" name="last_name" id="last_name" required minlength="3" maxlength="25" placeholder="Last Name"><br>
         <fieldset>
         Message:<br>
-        <textarea id="message" required minlength="20" maxlength="800" placeholder= "Message required: Please type a message between 50 and 800 characters." required ></textarea><br>
-        </fieldset>
+        <textarea name="message" id="message" required minlength="20" maxlength="800" placeholder= "Message required: Please type a message between 50 and 800 characters." required ></textarea><br>
         <legend>Please Submit Your Message</legend> <br>
+        </fieldset>
         <input type="submit" id="submit" value="Send"><br>
         <input type="reset" id="reset" value="Reset"><br>
         </form>
